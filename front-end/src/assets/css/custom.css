@@ -1,0 +1,259 @@
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.15); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,0.35);  
+}
+
+.full_text_table {
+    white-space: nowrap;
+  }
+
+.no_box_shadow {
+    box-shadow: none !important;
+}
+
+.delimiter_row_bottom {
+    border-bottom: 1px solid #e8e8e8 !important;
+}
+
+.full_text_table {
+    white-space: nowrap;
+  }
+/********************************************************/
+/********************************************************/
+
+.home-app-wrapper .ui_title {
+    background-color:#337ab7;
+    height: 60px;
+}
+.home-app-wrapper .btn_ui_add {
+    background-color: rgb(243, 156, 18);
+    color: white !important;
+    text-transform: none !important;
+    border-color: #d58512;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    height: 30px;
+  }
+  .home-app-wrapper .btn_ui_blue {
+    background-color:#367fa9;
+    color: white !important;
+    text-transform: none !important;
+    border-color: #204d74;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    height: 30px;
+  }
+
+
+.home-app-wrapper .btn_ui_back {
+    background-color:#3c8dbc;
+    color: white !important;
+    text-transform: none !important;
+    border-color: #367fa9;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    height: 30px;
+ }
+
+ .home-app-wrapper .btn_ui_upload {
+    background-color:#3d7b3f;
+    color: white !important;
+    text-transform: none !important;
+    border-color: #3d7b3f;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    height: 30px;
+    width: 98.36px !important;
+ }
+
+.home-app-wrapper .btn_ui_generate {
+    background-color: rgb(0, 205, 255);
+    color: white !important;
+    text-transform: none !important;
+}
+
+.home-app-wrapper .sub_title {
+    padding: 10px 16px;
+ }
+
+.home-app-wrapper .border_blue {
+    border: 1px solid #337ab7; border-radius: 5px;
+ }
+
+.home-app-wrapper  .v-btn .v-icon--left {
+    margin-right: 10px;
+}
+
+.home-app-wrapper .theme--light.v-table thead th {
+    color: #333; 
+   font-weight: bold;
+}
+
+.home-app-wrapper .decorate_area {
+    border-top: 3px solid #d2d6de !important;
+}
+
+.home-app-wrapper .decorate_area.primary {
+    border-top-color: #3c8dbc !important;
+}
+
+.home-app-wrapper .decorate_area.danger {
+    border-top-color: #dd4b39 !important;
+}
+
+
+.home-app-wrapper .decorate_area.green_border {
+    border-top-color: #00a65a !important;
+}
+
+.home-app-wrapper .decorate_area.warning {
+    border-top-color: #f39c12 !important;
+}
+
+.home-app-wrapper .delimiter_row_top.same,
+.home-app-wrapper .delimiter_row_bottom.same {
+  border-color: #d0d0d0 !important;
+}
+
+.home-app-wrapper .delimiter_row_bottom {
+  border-bottom: 3px solid var(--v-primary-base) !important;
+}
+
+.home-app-wrapper .block {
+    padding-bottom: 15px;
+}
+
+/********************************************************/
+/********************************************************/
+
+.my_style {
+    background-color: #222d32;
+}
+
+.my_style .v-list__group::before,
+.my_style .v-list__group::after {
+    background-color: unset !important;
+    height: 0 !important;
+}
+
+.my_style .v-list__group .v-list__group__header,
+.my_style .simple-list-item {
+    border-left: 3px solid transparent; 
+}
+
+.my_style .simple-list-item > a {
+    height: 45px !important;
+}
+
+.my_style .v-list__group .v-list__group__items {
+    background-color: #2c3b41;;
+}
+
+.my_style .v-list__group .v-list__group__items a {
+    padding-left: 50px;
+}
+
+.my_style .v-list__group .v-list__group__items .sub_icon {
+    color: #b8c7ce !important;
+    margin-right: 10px;
+    font-size: 12px !important;
+    font-weight: bolder;
+}
+
+.my_style .v-list__group__header,
+.my_style .v-list__group .v-list__group__items i,
+.my_style .v-list__group .v-list__group__items .v-list__tile__title,
+.my_style .simple-list-item .v-list__tile__title,
+.my_style .v-list__group__header i,
+.my_style .simple-list-item .v-list__tile__action i {
+    color: #b8c7ce;
+}
+
+.my_style .v-list__group__header i,
+.my_style .simple-list-item .v-list__tile__action i {
+    font-size: 20px; 
+}
+
+.my_style .simple-list-item .v-list__tile__action {
+    padding: 0 16px 0 0 !important;
+    min-width: unset !important;
+}
+
+.my_style .v-list__group__header__prepend-icon {
+    padding: 0 0 0 15px !important;
+    min-width: unset !important;
+}
+
+.my_style .v-list__tile__title {
+    font-weight: 400;
+}
+
+.my_style .simple-list-item.active,
+.my_style .simple-list-item.active i,
+.my_style .simple-list-item.active .v-list__tile__title,
+.my_style .v-list__group.active .v-list__group__header,
+.my_style .v-list__group.active .v-list__group__header i {
+    color: white !important;
+    background-color: #1e282c;
+    border-left-color: #3c8dbc !important;
+}
+
+.my_style .v-list__group.active .v-list__group__header .v-list__tile__title,
+.my_style .v-list__group.active i,
+.my_style .v-list__group .v-list__group__items .v-list__tile--active .sub_icon,
+.my_style .v-list__group .v-list__group__items .v-list__tile--active .v-list__tile__title {
+    color: white !important;
+}
+
+
+.my_style .v-list__group .v-list__group__items a:hover,
+.my_style .v-list__group .v-list__group__items a:hover .sub_icon,
+.my_style .v-list__group .v-list__group__items a:hover .v-list__tile__title {
+    color: white !important;
+    background-color: unset !important;
+}
+
+.my_style .v-list__group .v-list__group__header:hover,
+.my_style .v-list__group .v-list__group__header:hover i,
+.my_style .v-list__group .v-list__group__header:hover .v-list__tile__title,
+.my_style .simple-list-item:hover i,
+.my_style .simple-list-item a:hover,
+.my_style .simple-list-item:hover .v-list__tile__title,
+.my_style .v-list__group__header:hover {
+    color: white !important;
+    background-color: #1e282c !important;
+    border-left-color: #1e282c;
+    transition: 0s;
+}
+
+.my_style .v-list__group .v-list__group__header--active i,
+.my_style .v-list__group .v-list__group__header--active .v-list__tile__title,
+.my_style .v-list__group--active .v-list__group__header  {
+    color: white !important;
+    background-color: #1e282c !important;
+    border-left-color: #1e282c;
+}
+
+.full_box_table th,
+.full_box_table td {
+  border-right: 1px solid #0000001f;
+}
+.full_box_table th:last-child,
+.full_box_table td:last-child {
+  border-right: 0 !important;
+}

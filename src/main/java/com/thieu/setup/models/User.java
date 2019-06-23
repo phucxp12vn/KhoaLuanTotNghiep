@@ -1,6 +1,9 @@
 package com.thieu.setup.models;
 
+
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 public class User {
 
@@ -22,7 +25,20 @@ public class User {
 
     private Date createDate;
 
+    private Set<Role> roles = new HashSet<>();
+
+    private int roleId;
+    
     public User() {
+    }
+
+    public User(int userId,String username, String password, String email, String phone, String address) {
+        this.userId = userId;
+        this.username = username;
+        this.password = password;
+        this.email = email;
+        this.phone = phone;
+        this.address = address;
     }
 
     public User(String username, String password, byte gender, String email, String phone, String address, String city, Date createDate) {
@@ -35,6 +51,16 @@ public class User {
         this.city = city;
         this.createDate = createDate;
     }
+
+    public User(String username, String password, String email, String phone, String address) {
+        this.username = username;
+        this.password = password;
+        this.email = email;
+        this.phone = phone;
+        this.address = address;
+    }
+
+
 
     public int getUserId() {
         return userId;
@@ -106,5 +132,22 @@ public class User {
 
     public void setCreateDate(Date createDate) {
         this.createDate = createDate;
+    }
+
+    public Set<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(Set<Role> roles) {
+        this.roles = roles;
+    }
+
+
+    public int getRoleId() {
+        return roleId;
+    }
+
+    public void setRoleId(int roleId) {
+        this.roleId = roleId;
     }
 }
